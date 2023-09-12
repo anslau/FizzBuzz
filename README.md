@@ -1,5 +1,5 @@
 # CSC207 Week 1 Lab Activity #1: Fizz Buzz
-Let's start off our exploration of Java with a classic programming challenge, Fizz Buzz!
+Let's start off our exploration of Java with a classic programming challenge, Fizz Buzz! :)
 
 But first, let's get you your own copy of this codebase to work with.
 
@@ -9,31 +9,31 @@ You should be currently reading this README on GitHub in the code repository:
 https://github.com/CSC207-2023F-UofT/FizzBuzz/
 
 1. Make sure you are logged into GitHub. You should see a button that says `Fork` in the top-right corner of the page.
-Click this button to create a fork of this repository, which will be your own copy of the codebase to edit as you please.
-In the new page that comes up, confirm that you want to create the fork and your own FizzBuzz repository will be created
-on GitHub!
+   Click this button to create a fork of this repository, which will be your own copy of the codebase to edit as you please.
+   In the new page that comes up, confirm that you want to create the fork and your own FizzBuzz repository will be created
+   on GitHub!
 
 2. Now that you have your own fork of this repository, close this page, go to your fork, and continue with the next instructions.
 
 3. The next step is to get a local copy of your FizzBuzz repository on your own computer.
-This is called **cloning** the repository.
-You can do this by clicking the green `Code` button in your FizzBuzz repository on GitHub and copying
-the HTTPS URL which you will see. You can copy it by clicking the little 'copy' button with the two rectangles on it.
+   This is called **cloning** the repository.
+   You can do this by clicking the green `Code` button in your FizzBuzz repository on GitHub and copying
+   the HTTPS URL which you will see. You can copy it by clicking the little 'copy' button with the two rectangles on it.
 
 4. Open IntelliJ. If you already have a project open, close that project. From the main screen, choose
-the "Get From VCS" option.
+   the "Get From VCS" option.
 5. In the menu that appears, paste the URL. You can either use the default location on your computer to save the project
-or you can choose the directory.
-    - Note: if you later make another clone of this repository, it will require you to choose a new directory to save it to,
-   since you can't have two projects with the exact same directory.
+   or you can choose the directory.
+   - Note: if you later make another clone of this repository, it will require you to choose a new directory to save it to,
+     since you can't have two projects with the exact same directory.
 6. Click the `Clone` button and IntelliJ will set up your project. At this point, it may require you to set up an
-access token to be able to clone the repository from GitHub if you didn't previously do so in the
-software setup instructions from Week 0 on Quercus.
+   access token to be able to clone the repository from GitHub if you didn't previously do so in the
+   software setup instructions from Week 0 on Quercus.
 
 * Now that you have a copy of the code on your computer, you can proceed to work through the rest of the activity
-in IntelliJ. Open this `README.md` file in IntelliJ and in the top-right you can toggle between seeing the editor,
-editor+preview, or just the preview of this markdown file.
-Feel free to take notes in it as you go or just read the preview view of it.
+  in IntelliJ. Open this `README.md` file in IntelliJ and in the top-right you can toggle between seeing the editor,
+  editor+preview, or just the preview of this markdown file.
+  Feel free to take notes in it as you go or just read the preview view of it.
 
 Before we begin, note that IntelliJ is made by the same company as PyCharm, so it should feel quite familiar to you,
 with the only difference being that we'll be working with Java code instead of Python code of course!
@@ -43,7 +43,7 @@ The markdown format is commonly used for things like readme files, as they allow
 which allows for basic typesetting when viewed while still being a plaintext format.
 
 Below is a blank checkbox:
-- [ ] Put an X in the [ ] to mark this as done!
+- [X] Put an X in the [ ] to mark this as done!
 
 You can edit this file directly to check off these checkboxes throughout the lab to mark things as done.
 Do so now for the checkbox above.
@@ -135,9 +135,9 @@ the code are doing. For example, what's the Java version of Python's `and`? What
 on with that weird `for` loop? As you do this, you might find it useful to write down your
 own implementation in Python to help you begin to create a mapping between the two languages.
 
-- [ ] Make note of any specific Java syntax which stands out to you and compare what you
-come up with those around you. Try to come up with a list of at least five things that
-strike you as either similar to or different from Python.
+- [X] Make note of any specific Java syntax which stands out to you and compare what you
+  come up with those around you. Try to come up with a list of at least five things that
+  strike you as either similar to or different from Python.
 
 Tip: IntelliJ works just like PyCharm, so you can place breakpoints and step through the code using the debugger in the same way.
 You might find it informative to try stepping through the code to see what it is doing on a few iterations.
@@ -160,8 +160,8 @@ Later in this course, you'll learn what all that mess means, but for now it is e
 
 ### Task 1.1: Rewrite this using `while`
 
-- [ ] You've puzzled through how Java `for` and `if` statements work; now rewrite this
-to use a `while` loop instead of a `for` loop.
+- [X] You've puzzled through how Java `for` and `if` statements work; now rewrite this
+  to use a `while` loop instead of a `for` loop.
 
 ## How to test this code
 
@@ -173,13 +173,13 @@ test the calculation for several interesting numbers more easily.
 ## Task 2: How to refactor this code using IntelliJ
 
 1. Select all the lines inside the body of the loop. Don't include the for/while
-line or the closing brace `}` of the loop.
+   line or the closing brace `}` of the loop.
 
 2. Now select menu item `Refactor —> Extract/Introduce —> Method…`
 
 3. Immediately, type the method name you want, maybe something like `doFizzBuzz`.
 
-- [ ] Rerun the program to verify.
+- [X] Rerun the program to verify.
 
 That's your first big IntelliJ trick! There are lots more.
 
@@ -192,29 +192,26 @@ You'll learn more about the various access modifiers in your Java readings soon.
 
 Now that you've made your first edits to your code, you should ask git to save these changes for you.
 
-- [ ] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have modified `FizzBuzz.java` (and this README too!).
+- [X] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have modified `FizzBuzz.java` (and this README too!).
 
 We will save our local changes to `FizzBuzz.java` and then push the changes to your GitHub repository using
 a sequence of three git commands:
 
 1. `git add src/FizzBuzz.java`
    - this tells git to "stage" our changes to FizzBuzz.java. If you run `git status` again, you will see
-   that `FizzBuzz.java` has a new status.
+     that `FizzBuzz.java` has a new status.
 2. `git commit -m "refactored to extract helper method"`
    - this actually records your changes to all "staged" files to your local git repository. You can again
-   run `git status` to see what has happened.
+     run `git status` to see what has happened.
    - And if you run `git log`, you will see a record of all commits made so far in the repository.
    - The `-m "refactored to extract helper method"` is the message briefly documenting what changes were made.
-   You can put whatever message you want in the quotes, but try to keep it short and descriptive.
+     You can put whatever message you want in the quotes, but try to keep it short and descriptive.
 3. `git push`
    - this last step is what actually sends your committed changes to your remote GitHub repository.
-   - IMPORTANT: You likely won't have your system configured for this command to actually work directly, so you
-   will most likely need to do the actual push using IntelliJ. See the first tip below, which mentions how to perform
-   the relevant git operations through IntelliJ's graphical user interface.
 
-- [ ] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
+- [X] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
 
-- [ ] repeat the above steps for `README.md` (or try using the approach below).
+- [X] repeat the above steps for `README.md` (or try using the approach below).
 
 Tip: You can also use IntelliJ to execute these same steps using the graphical user interface it provides.
 If you have followed the software installation instructions, you should see `Git` in the menu bar at the top.
@@ -222,11 +219,7 @@ From that you can select `Commit...`, which will allow you to add and commit fil
 indicate which files to add and put the commit message in the textbox, then press the commit button).
 That menu also gives you the option to commit and push in one step if you wish to do so.
 If you chose to only commit, then you can later go back to the `Git` menu and choose `Push...` to open a
-menu to then push your commits to your remote GitHub repository. When you try to push, you will be prompted
-to provide a GitHub access Token to authenticate if you haven't already added one. There will be a `Generate...`
-button in the popup. Clicking that will take you to a GitHub page which will generate the token for you. Once
-you generate the token, you copy it into the dialog box in IntelliJ and the push should go through. If you
-have trouble with this, please ask and someone around can help you through the steps.
+menu to then push your commits to your remote GitHub repository.
 
 Tip: It is good practice to get in the habit of making commits that are small and have a distinct purpose.
 For example, one might imagine making a commit each time they complete a task they are working on or finish
@@ -241,34 +234,34 @@ Now, back to exploring the code!
 
 To briefly observe what private does, let's create a new class.
 
-- [ ] Right-click on `src` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
+- [X] Right-click on `src` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
 
 We'll write a main method which will attempt to call `FizzBuzz.doFizzBuzz` (or whatever you called
 your extracted helper method).
 
-- [ ] To quickly generate `main`, you can start typing `psvm` in IntelliJ and then press Enter to accept the
-autocomplete — it will generate an empty "public static void main" (psvm) method for you. Neat!
+- [X] To quickly generate `main`, you can start typing `psvm` in IntelliJ and then press Enter to accept the
+  autocomplete — it will generate an empty "public static void main" (psvm) method for you. Neat!
 
-- [ ] In the body of this main method, type `FizzBuzz.`. You'll see that the private helper method doesn't
-appear in the autocomplete, but `FizzBuzz.main` does! If you wanted to be able to call the helper from
-inside `Main.java`, you would need to change the access modifier on the helper.
-It turns out that IntelliJ can help us out with this too!
+- [X] In the body of this main method, type `FizzBuzz.`. You'll see that the private helper method doesn't
+  appear in the autocomplete, but `FizzBuzz.main` does! If you wanted to be able to call the helper from
+  inside `Main.java`, you would need to change the access modifier on the helper.
+  It turns out that IntelliJ can help us out with this too!
 
 ### Task 3.1: Changing access modifiers using IntelliJ
 
-- [ ] In your main method in `Main.java`, try calling your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
+- [X] In your main method in `Main.java`, try calling your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
 
 You'll see that IntelliJ flags that you are trying to access something that is private. Unlike Python,
 Java won't even let you run the code when it detects this kind of violation of an access modifier (it is an
 error and not just a warning).
 
-- [ ] Hover over the error; IntelliJ will suggest some fixes.
+- [X] Hover over the error; IntelliJ will suggest some fixes.
 
-- [ ] Click `More actions...` and you'll see a list of the various possible access modifiers.
-These will be explained in more detail in your readings, but for now we can just make the method public.
+- [X] Click `More actions...` and you'll see a list of the various possible access modifiers.
+  These will be explained in more detail in your readings, but for now we can just make the method public.
 
-- [ ] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
-what you expect.
+- [X] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
+  what you expect.
 
 ### Task 3.2: Calling `FizzBuzz.main` from `Main.main`
 
@@ -278,16 +271,16 @@ If you add this line to `Main.main`, IntelliJ will tell you the problem and sugg
 but neither of them will *directly* fix the problem.
 
 * Talk with your neighbours to try to find the best way to resolve the problem so that you can run `Main.java` and
-see the expected output of executing `FizzBuzz.main`. If you come up with different ways to do this,
-think about how they differ and which might be best.
+  see the expected output of executing `FizzBuzz.main`. If you come up with different ways to do this,
+  think about how they differ and which might be best.
 
 And that's all we wanted to highlight with this first example. You'll see and learn much more Java syntax as you work
 through the readings over the next couple of weeks.
 
 ### Task 3.3 Push your latest changes
 
-- [ ] Now that you've made some more changes to your repository, you should repeat the add, commit, push process
-for any files that you have changed if you haven't done so recently. Remember to include a descriptive commit message.
+- [X] Now that you've made some more changes to your repository, you should repeat the add, commit, push process
+  for any files that you have changed if you haven't done so recently. Remember to include a descriptive commit message.
 
 ### Task 3.4 Pulling changes from GitHub
 
@@ -303,16 +296,16 @@ ways to help you resolve such conflicts without too much difficulty.
 To get your first experience with `git pull`, you can make a quick change to one of the files in your Fizz Buzz repository
 on GitHub.
 
-- [ ] Open any of the files (like this readme file, for example) on the GitHub webpage for your repository. Near the
-right side of the screen, you should see an edit button (with a pencil on it). Click that and make a small edit to
-the file. Then click the commit button to commit the change to the repository.
+- [X] Open any of the files (like this readme file, for example) on the GitHub webpage for your repository. Near the
+  right side of the screen, you should see an edit button (with a pencil on it). Click that and make a small edit to
+  the file. Then click the commit button to commit the change to the repository.
 
 This change has now been made on GitHub,
 but your local copy doesn't know about the change yet.
 
-- [ ] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
-or you can run `git pull` from the Terminal tab. Once you have done the pull, you should see that commit show up in
-your local repository.
+- [X] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
+  or you can run `git pull` from the Terminal tab. Once you have done the pull, you should see that commit show up in
+  your local repository.
 
 Let's move on to a couple more small programming challenges for you to try out, which are similar to Fizz Buzz.
 
@@ -328,13 +321,13 @@ commit, push steps you learned in lab this week).
 
 ## Task 4: Multiples of 3 and 5
 
-- [ ] Right-click on `src` and select `New —> Java Class`. Name it `Multiples`.
+- [X] Right-click on `src` and select `New —> Java Class`. Name it `Multiples`.
 
 We're looking for non-negative multiples of 3 or 5. The first four are 3, 5, 6, and 9, so there are
 four below 10. How many are below 1000?
 
-- [ ] In `Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
-Add this file to your project, commit, and push. Check your repo on GitHub to confirm your changes were pushed successfully.
+- [X] In `Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
+  Add this file to your project, commit, and push. Check your repo on GitHub to confirm your changes were pushed successfully.
 
 Tip: Just like with `psvm`, you can start typing `sout` and then press Enter to generate `System.out.println();` in IntelliJ.
 
@@ -344,22 +337,22 @@ working code on MarkUs.
 
 ## Task 5: Reduce a number to 0
 
-- [ ] Right-click on `src` and select `New —> Java Class`. Name it `Reduce`.
+- [X] Right-click on `src` and select `New —> Java Class`. Name it `Reduce`.
 
 Starting with a number n, if n is even divide it by 2. If n is odd, subtract 1. Repeat.
 
 For example, if you start with n = 2, the answer is 2.
 Details: 2 (even, divide by 2) --> 1 (odd, subtract 1) --> 0.
 
-- [ ] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
-Add this file to your project, commit, and push. If you don't get the right answer, that's okay for now.
-This is to get you to practice. You'll have until the end of the week to work out the details and
-submit your working code on MarkUs.
+- [X] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
+  Add this file to your project, commit, and push. If you don't get the right answer, that's okay for now.
+  This is to get you to practice. You'll have until the end of the week to work out the details and
+  submit your working code on MarkUs.
 
 And that's it for the first lab activity of the term!
 
-- [ ] Check with those around you to see how many commits you each made during the lab. You can view the log of commits on GitHub or
-      use the `git log` command to view a summary of the commits to the repository.
+- [X] Check with those around you to see how many commits you each made during the lab. You can view the log of commits on GitHub or
+  use the `git log` command to view a summary of the commits to the repository.
 
 ## Coding homework for this week
 See the Week 1 module on Quercus for how to get started on the homework based on the above two problems.
@@ -371,7 +364,7 @@ cover a lot of the syntax which you just saw for possibly the first time during 
 ## Further practice
 
 [LeetCode](https://leetcode.com) is a very popular source of practice problems.
-[CoderByte](https://www.coderbyte.com/) is another. 
+[CoderByte](https://www.coderbyte.com/) is another.
 If you are looking to apply for a software developer internship, we recommend that you practice these kinds of
 problems over the year. These platforms also support various programming languages, so solving these
 problems is a great way to practice Java or any other new language you later want to learn.
@@ -397,22 +390,22 @@ We'll briefly summarize two approaches you might take for this:
 3. Have you each make a change to your GitHub repositories (as you did in Task 3.4 before).
 
 4. Anyone with a fork of your repository will see an option to sync with your repository.
-Similarly, they will also see an option to contribute their changes to your original fork.
-The mechanism by which this contribution is done is a **pull request**. As the name suggests,
-you are requesting that the original repository do a `git pull` to pull in your commits. We'll talk
-more about pull requests later, but feel free to try it out now by following the instructions that
-appear when you click the button to contribute.
+   Similarly, they will also see an option to contribute their changes to your original fork.
+   The mechanism by which this contribution is done is a **pull request**. As the name suggests,
+   you are requesting that the original repository do a `git pull` to pull in your commits. We'll talk
+   more about pull requests later, but feel free to try it out now by following the instructions that
+   appear when you click the button to contribute.
 
 ### Giving someone else direct access to your GitHub repository
 
 1. Click on the Settings tab for your repository on GitHub (the right-most tab). In it, there is a Collaborators tab (top-left).
-Click on it and then you will see a button to add people to your project.
+   Click on it and then you will see a button to add people to your project.
 
 2. Add the other person to your project. They can now clone your repository directly using
-the HTTPS URL as you did during the lab.
+   the HTTPS URL as you did during the lab.
 
 3. Now, if one of you makes a local change and then pushes it,
-the other one of you will need to do a `git pull` to get the changes. Of course, if you both make changes
-and try to push, there may be conflicting changes which need to be resolved. As mentioned earlier,
-git does a pretty good job telling you what is wrong and can help you resolve any conflicts. We'll talk more about
-this later, as well as other features of git which can help you avoid conflicts.
+   the other one of you will need to do a `git pull` to get the changes. Of course, if you both make changes
+   and try to push, there may be conflicting changes which need to be resolved. As mentioned earlier,
+   git does a pretty good job telling you what is wrong and can help you resolve any conflicts. We'll talk more about
+   this later, as well as other features of git which can help you avoid conflicts.
